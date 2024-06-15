@@ -1,0 +1,116 @@
+/* ReviewForm.css */
+.review-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+  }
+  
+  .review-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .review-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    resize: none;
+  }
+  
+  .rating-container {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .star {
+    font-size: 25px;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.2s;
+  }
+  
+  .star.selected {
+    color: #ff9800;
+  }
+  
+  .star:hover {
+    color: #ff9800;
+  }
+  
+  .submit-button {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .submit-button:hover {
+    background: #218838;
+  }
+  /* ReviewsList.css */
+.reviews-list-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    padding: 20px;
+    background: #f0f0f0;
+  }
+  
+  .review-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-bottom: 15px;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .review-rating {
+    font-size: 20px;
+    color: #ff9800;
+    text-align: right;
+  }
+  /* Layout.css */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ff9800;
+  }
+  
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
